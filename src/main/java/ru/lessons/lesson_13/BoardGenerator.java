@@ -3,16 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package clinicrunner;
+package ru.lessons.lesson_13;
 
 /**
  *
- * @author Admin
+ * @author userr
  */
-public interface Pet {
-    // Get the name of the pet
-    String getName();
-    void setName(String name);
-    
-  
+public interface BoardGenerator {
+    Cell[][] generate();
 }

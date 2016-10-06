@@ -3,16 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package clinicrunner;
+package ru.lessons.lesson_13;
 
 /**
  *
- * @author Admin
+ * @author userr
  */
-public class DuplicateNameException extends Exception {
-    public DuplicateNameException (final String message)
-    {
-        super(message);
-    }
+public interface UserAction {
     
+    void initGame();
+    
+    void select(int x, int y, boolean bomb);
 }
